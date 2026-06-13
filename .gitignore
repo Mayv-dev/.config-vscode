@@ -1,0 +1,7 @@
+# Ignore all directories and files
+/*/
+*
+
+# Allowlist
+!.gitignore
+!settings.json
