@@ -5,3 +5,4 @@
 # Allowlist
 !.gitignore
 !settings.json
+!keybindings.json
