@@ -36,6 +36,7 @@
   "editor.renderWhitespace": "boundary",
 
   "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
 
   // ============================================================================
   // FILES & EXPLORER
@@ -52,18 +53,6 @@
 
   "workbench.editor.languageDetection": false,
 
-  "[javascript]": {
-    "editor.defaultFormatter": "biomejs.biome",
-  },
-
-  "[json]": {
-    "editor.defaultFormatter": "biomejs.biome",
-  },
-
-  "[jsonc]": {
-    "editor.defaultFormatter": "biomejs.biome",
-  },
-
   "[python]": {
     "editor.tabSize": 4,
     "editor.formatOnType": true,
@@ -75,11 +64,16 @@
     },
   },
 
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+
   // ============================================================================
   // TERMINAL
   // ============================================================================
 
   "terminal.integrated.fontSize": 16,
+  "terminal.integrated.allowChords": false,
 
   "terminal.integrated.profiles.linux": {
     "tmux": {
@@ -285,4 +279,7 @@
       "commands": ["editor.action.quickFix"],
     },
   ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
 }
